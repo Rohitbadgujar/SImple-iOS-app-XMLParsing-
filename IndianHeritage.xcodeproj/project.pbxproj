@@ -8,20 +8,38 @@
 
 /* Begin PBXBuildFile section */
 		8F0404452231E365004BE439 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0404442231E365004BE439 /* AppDelegate.swift */; };
-		8F0404472231E365004BE439 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0404462231E365004BE439 /* ViewController.swift */; };
 		8F04044A2231E365004BE439 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F0404482231E365004BE439 /* Main.storyboard */; };
 		8F04044C2231E369004BE439 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F04044B2231E369004BE439 /* Assets.xcassets */; };
 		8F04044F2231E369004BE439 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F04044D2231E369004BE439 /* LaunchScreen.storyboard */; };
+		8F0404572231E4F6004BE439 /* IndianHeritageTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0404562231E4F6004BE439 /* IndianHeritageTableViewController.swift */; };
+		8F04045D2231E650004BE439 /* HeritageDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F04045C2231E650004BE439 /* HeritageDetails.swift */; };
+		8F04045F2231E6AA004BE439 /* IndianHeritage.xcodeproj in Sources */ = {isa = PBXBuildFile; fileRef = 8F04045E2231E6AA004BE439 /* IndianHeritage.xcodeproj */; };
+		8F0404612231E6F6004BE439 /* XMLHeritageParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0404602231E6F6004BE439 /* XMLHeritageParser.swift */; };
+		8F0404652231E843004BE439 /* Images in Resources */ = {isa = PBXBuildFile; fileRef = 8F0404642231E843004BE439 /* Images */; };
+		8F0404672231E84F004BE439 /* heritage.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8F0404662231E84F004BE439 /* heritage.xml */; };
+		8F0404692231EB0B004BE439 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0404682231EB0B004BE439 /* Place.swift */; };
+		8F1C74EC223301B8002E37C5 /* SelectedHeritageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1C74EB223301B8002E37C5 /* SelectedHeritageViewController.swift */; };
+		8F1C74F222345071002E37C5 /* MoreInformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1C74F122345071002E37C5 /* MoreInformationViewController.swift */; };
+		8F69E12922345FC4009DCF5D /* WebsiteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F69E12822345FC4009DCF5D /* WebsiteViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8F0404412231E365004BE439 /* IndianHeritage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IndianHeritage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F0404442231E365004BE439 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8F0404462231E365004BE439 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8F0404492231E365004BE439 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8F04044B2231E369004BE439 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8F04044E2231E369004BE439 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8F0404502231E369004BE439 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F0404562231E4F6004BE439 /* IndianHeritageTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndianHeritageTableViewController.swift; sourceTree = "<group>"; };
+		8F04045C2231E650004BE439 /* HeritageDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeritageDetails.swift; sourceTree = "<group>"; };
+		8F04045E2231E6AA004BE439 /* IndianHeritage.xcodeproj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "wrapper.pb-project"; path = IndianHeritage.xcodeproj; sourceTree = SOURCE_ROOT; };
+		8F0404602231E6F6004BE439 /* XMLHeritageParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLHeritageParser.swift; sourceTree = "<group>"; };
+		8F0404642231E843004BE439 /* Images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Images; sourceTree = "<group>"; };
+		8F0404662231E84F004BE439 /* heritage.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = heritage.xml; sourceTree = "<group>"; };
+		8F0404682231EB0B004BE439 /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+		8F1C74EB223301B8002E37C5 /* SelectedHeritageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedHeritageViewController.swift; sourceTree = "<group>"; };
+		8F1C74F122345071002E37C5 /* MoreInformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreInformationViewController.swift; sourceTree = "<group>"; };
+		8F69E12822345FC4009DCF5D /* WebsiteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebsiteViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +72,28 @@
 		8F0404432231E365004BE439 /* IndianHeritage */ = {
 			isa = PBXGroup;
 			children = (
+				8F0404662231E84F004BE439 /* heritage.xml */,
+				8F0404642231E843004BE439 /* Images */,
 				8F0404442231E365004BE439 /* AppDelegate.swift */,
-				8F0404462231E365004BE439 /* ViewController.swift */,
 				8F0404482231E365004BE439 /* Main.storyboard */,
 				8F04044B2231E369004BE439 /* Assets.xcassets */,
 				8F04044D2231E369004BE439 /* LaunchScreen.storyboard */,
+				8F04045E2231E6AA004BE439 /* IndianHeritage.xcodeproj */,
+				8F04045C2231E650004BE439 /* HeritageDetails.swift */,
 				8F0404502231E369004BE439 /* Info.plist */,
+				8F0404562231E4F6004BE439 /* IndianHeritageTableViewController.swift */,
+				8F0404602231E6F6004BE439 /* XMLHeritageParser.swift */,
+				8F0404682231EB0B004BE439 /* Place.swift */,
+				8F1C74EB223301B8002E37C5 /* SelectedHeritageViewController.swift */,
+				8F1C74F122345071002E37C5 /* MoreInformationViewController.swift */,
+				8F69E12822345FC4009DCF5D /* WebsiteViewController.swift */,
 			);
 			path = IndianHeritage;
+			sourceTree = "<group>";
+		};
+		8F8D0508225961FA001A6980 /* Products */ = {
+			isa = PBXGroup;
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -110,6 +142,12 @@
 			mainGroup = 8F0404382231E365004BE439;
 			productRefGroup = 8F0404422231E365004BE439 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 8F8D0508225961FA001A6980 /* Products */;
+					ProjectRef = 8F04045E2231E6AA004BE439 /* IndianHeritage.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				8F0404402231E365004BE439 /* IndianHeritage */,
@@ -122,6 +160,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F0404672231E84F004BE439 /* heritage.xml in Resources */,
+				8F0404652231E843004BE439 /* Images in Resources */,
 				8F04044F2231E369004BE439 /* LaunchScreen.storyboard in Resources */,
 				8F04044C2231E369004BE439 /* Assets.xcassets in Resources */,
 				8F04044A2231E365004BE439 /* Main.storyboard in Resources */,
@@ -135,8 +175,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F0404472231E365004BE439 /* ViewController.swift in Sources */,
+				8F69E12922345FC4009DCF5D /* WebsiteViewController.swift in Sources */,
+				8F04045F2231E6AA004BE439 /* IndianHeritage.xcodeproj in Sources */,
+				8F0404612231E6F6004BE439 /* XMLHeritageParser.swift in Sources */,
+				8F1C74EC223301B8002E37C5 /* SelectedHeritageViewController.swift in Sources */,
 				8F0404452231E365004BE439 /* AppDelegate.swift in Sources */,
+				8F0404692231EB0B004BE439 /* Place.swift in Sources */,
+				8F0404572231E4F6004BE439 /* IndianHeritageTableViewController.swift in Sources */,
+				8F1C74F222345071002E37C5 /* MoreInformationViewController.swift in Sources */,
+				8F04045D2231E650004BE439 /* HeritageDetails.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
